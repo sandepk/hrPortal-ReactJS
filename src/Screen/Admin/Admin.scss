@@ -1,0 +1,15 @@
+.admin__container{
+    width: 100%;
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.08fr 1fr;
+    grid-template-areas: "adminHeader" "adminBody";
+    .admin__header{
+        grid-area: adminHeader;
+    }
+    .admin__Body{
+        grid-area: adminBody;
+    }
+
+}

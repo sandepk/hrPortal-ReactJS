@@ -1,0 +1,14 @@
+.employeeAdditionForm__container{
+    width: 100%;
+    height: 100%;
+    padding:5px;
+    .employeeAdditionForm__department,.employeeAdditionForm__name,.employeeAdditionForm__emailAddress,.employeeAdditionForm__gender{
+        // width: 400px;
+        padding: 10px 0px;
+    }
+    .employeeAdditionForm__buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

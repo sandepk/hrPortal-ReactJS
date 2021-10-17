@@ -1,0 +1,25 @@
+.adminBody__container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  .adminBody__additionAndfiltering {
+    height: 15%;
+    .adminBody__addition {
+      .adminBody__additionButton {
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+    .adminBody__filteringDetails {
+      .adminBody__filteringDropdown {
+        height: 80px;
+        width: 50%;
+      }
+    }
+  }
+  .adminBody__table {
+    height: 85%;
+  
+  
+  }
+}

@@ -1,0 +1,10 @@
+.appNavbar__container {
+  .appNavbar__logo {
+      .appNavbar__logoImage {
+        background-color: blue; 
+        width: 50px;
+        border-radius: 25px;
+        filter: brightness(80%) saturate(70%) grayscale(30%);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@mixin display-flex{
+    display: flex;
+    align-items: center;
+}
+.adminBodyTableHeader__container{
+    @include display-flex();
+    padding:5px;
+    .adminBodyTableHeader__employeeId,.adminBodyTableHeader__department,.adminBodyTableHeader__name,.adminBodyTableHeader__gender,.adminBodyTableHeader__email{
+        flex:1;
+        text-align: center;
+    }
+    .adminBodyTableHeader__delete{
+        color:red;
+    }
+
+}
